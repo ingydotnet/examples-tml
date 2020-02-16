@@ -1,0 +1,18 @@
+#!/usr/bin/env testml
+
+
+*number.divide-then-multiply(3) == *number
+  :"+ - Show that ({*number} / 3) * 3 -> {*number}"
+
+
+=== Test 1
+--- number: 1
+
+=== Test 2
+--- number: 3
+
+=== Test 3
+--- number: -5
+
+=== Test 4
+--- number: 0
